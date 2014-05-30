@@ -50,7 +50,7 @@
 <div id="topper">
 
     <div id="title">
-        <h1><a href="">{templata:app-name}</a></h1>
+        <a href="" class="logo"><img src="{templata:images}/loni/Logo.png" width="10%"></a>
     </div>
 
     <div id="switch"></div>
@@ -71,7 +71,7 @@
 
     <div id='footer' class='grid_12'>
         <div id='copyright'>
-            <p>&copy; 2013 Success Motivation. All Rights Reserved</p>
+            <p>&copy; 2014</p>
         </div>
     </div>
 </div>
