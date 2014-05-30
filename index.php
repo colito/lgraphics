@@ -1,10 +1,21 @@
 <?php
-//header('Location: coming-soon');
-$social_width = '50';
-?>
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-<img src="images/coming-soon-cover-animation.gif" width="850">
-<a href="http://behance.net/lonigraphics"><img src="images/behance.png" width="<?php echo $social_width?>"></a>
-<a href="http://za.linkedin.com/pub/lehlohonolo-makhokolo/82/4a3/a24"><img src="images/linkedin.png" width="<?php echo $social_width?>"></a>
-<a href="http://lonigraphics.tumblr.com/"><img src="images/tumblr.png" width="<?php echo $social_width?>"></a>
-<a href="https://twitter.com/lonigraphics"><img src="images/twitter.png" width="<?php echo $social_width?>"></a>
+require_once('config.php');
+require_once(APP_ROOT_DIR.'/includes/definitions.php');
+require_once(T_FNS.'page_handler.php');
+
+$config = new Config();
+$page_handler = new PageHandler();
+
+$relative_path_depth = relative_path(dirname(__FILE__));
+
+$category = (!empty($_GET['category']) ? $_GET['category'] : $config->default_landing_category);
+$article = (!empty($_GET['article']) ? $_GET['article'] : $config->default_landing_article);
+$sub_article = (!empty($_GET['sub-article']) ? $_GET['sub-article'] : $config->default_landing_sub_article);
+
+$body_content = $page_handler->get_content($relative_path_depth, $category, $article, $sub_article);
+
+$page_handler->display_page($relative_path_depth, $body_content);
+
