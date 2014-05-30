@@ -2,7 +2,7 @@
 -----------------------------------------------*/
 body
 {
-	background: #f0f0f0;/*url("images/leela_bg.jpg")*/ /*#edece3*/ /*#f8f9fa*/
+	background: #ffffff;/*url("images/leela_bg.jpg")*/ /*#edece3*/ /*#f8f9fa*/
 	font-family: 'Armata', sans-serif;
     font-weight: 400;
     color: #4E5860;
@@ -17,10 +17,9 @@ del
 -----------------------------------------------*/
 .container_12
 {
-    margin-top: 4.6%;
+    margin-top: 7%;
     background: #ffffff;
     border: solid thin #ECEFF0;
-    /*background: #000000 url('images/awesome-graffiti-art.jpg');*/
     /*box-shadow:2px 2px 2px 2px grey;*/
 }
 
@@ -79,8 +78,8 @@ p, ul, ol
     -moz-position: fixed;
     width: 100%;
     top: 0px;
-    height: 47px;
-    background-color: steelblue;
+    height: 80px;
+    background-color: #3F6E86;
     z-index: 100;
     /*border-bottom: solid 12px lightsteelblue;*/
 }
@@ -93,6 +92,13 @@ p, ul, ol
     text-decoration: none;
     color: #ffffff;
     margin: 0% 0 0 2%;  /*top right bottom left*/
+}
+
+#topper .logo img
+{
+    margin-top: 0%;
+    margin-left: 15%;
+    /*width: 12%;*/
 }
 
 #switch, #panel
@@ -121,7 +127,7 @@ p, ul, ol
 {
     position: absolute;
     top: 2%;
-    margin: 0% 0 0% 30%;
+    margin: 1.8% 0 0% 57%;
 }
 
 #navigation ul
@@ -136,7 +142,7 @@ p, ul, ol
 {
 	float:left;
 	/*margin-left:0.5%;*/
-    padding-left: 12px;
+    padding-left: 35px;
 }
 
 #navigation ul #active_page a
@@ -149,7 +155,8 @@ p, ul, ol
 	color: lightsteelblue;
 	display: block;
 	text-decoration: none;
-	font-size: 0.87em;
+	font-size: 1.3em;
+    font-weight: bold;
 }
 
 #navigation ul li a:hover
