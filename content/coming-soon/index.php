@@ -1,0 +1,1 @@
+<img src="../img/coming-soon-cover-animation.gif" width="800">
