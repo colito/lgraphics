@@ -1,0 +1,4 @@
+TUMBLR = http://lonigraphics.tumblr.com/
+BEHANCE = http://behance.net/lonigraphics
+TWITTER = https://twitter.com/lonigraphics
+Linkedin = za.linkedin.com/pub/lehlohonolo-makhokolo/82/4a3/a24
