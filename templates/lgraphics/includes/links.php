@@ -12,13 +12,9 @@ Solutions:theone/solutions.php
 Contact:theone/contact.php
 Hello:theone/hello.php
 
-*Home:theone
-*Solutions:theone/solutions
-*Contact:theone/contact
-*Hello:theone/hello
-*Guide:guide
-*Sample:sample
-
+*Home:loni
+*About:#
+*Gallery:#
 
             CASCADING STYLE SHEET FILES (CSS)
 
