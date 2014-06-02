@@ -49,8 +49,8 @@
 
 <div id="topper">
 
-    <div id="title">
-        <a href="" class="logo"><img src="{templata:images}/loni/Logo.png" width="10%"></a>
+    <div id="logo">
+        <a href="" class="logo"><img src="{templata:images}/loni/Logo.png"></a>
     </div>
 
     <div id="switch"></div>
@@ -66,12 +66,32 @@
 </div>
 
 <div class="container_12 clearfix">
-
     {body-content}
+</div>
 
-    <div id='footer' class='grid_12'>
-        <div id='copyright'>
-            <p>&copy; 2014</p>
+<div id='footer'>
+    <div id='copyright' class="center">
+        <p>&copy; Copyright 2014</p>
+    </div>
+
+    <div class="container_12 info">
+        <div class="grid_4 omega suffix_4">
+            <u>Phone</u> <br>
+            +27(0)71 0628 057 <br>
+            +27(0)74 6779 768 <br><br>
+
+            <u>Email</u> <br>
+            info@loni.co.za <br>
+            lonigraphics@gmail.com <br><br>
+
+            <u>Address</u> <br>
+            Hatfield, Pretoria, South Africa
+        </div>
+
+        <div class="grid_4">
+            Follow me on...<br>
+            <a href="http://lonigraphics.tumblr.com/"><img src="{templata:images}/loni/Tumblr.png"></a> &nbsp;
+            <a href="http://behance.net/lonigraphics"><img src="{templata:images}/loni/Behance.png"></a> &nbsp;
         </div>
     </div>
 </div>

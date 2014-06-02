@@ -17,9 +17,9 @@ del
 -----------------------------------------------*/
 .container_12
 {
-    margin-top: 7%;
-    background: #ffffff;
-    border: solid thin #ECEFF0;
+    /*margin-top: 7%;*/
+    /*background: #ffffff;*/
+    /*border: solid thin #ECEFF0;*/
     /*box-shadow:2px 2px 2px 2px grey;*/
 }
 
@@ -74,11 +74,11 @@ p, ul, ol
 }
 #topper
 {
-    position: fixed;
-    -moz-position: fixed;
+    /*position: fixed;
+    -moz-position: fixed;*/
     width: 100%;
     top: 0px;
-    height: 80px;
+    height: 20%;
     background-color: #3F6E86;
     z-index: 100;
     /*border-bottom: solid 12px lightsteelblue;*/
@@ -98,7 +98,7 @@ p, ul, ol
 {
     margin-top: 0%;
     margin-left: 15%;
-    /*width: 12%;*/
+    width: 10%;
 }
 
 #switch, #panel
@@ -315,19 +315,27 @@ span
 ----------------------------------------------*/
 #footer
 {
-	/*background: lightslategrey url('images/footer_bg.png');*/
-	text-align: left;
+    background-color: #3F6E86;
+	/*text-align: left;*/
 	font-size: 0.8em;
-	border-top: solid 1px #ADACAC;
 	margin-bottom: 0;
 }
-#copyright
+
+#footer .info
 {
-	margin-left: 1%;
+    background-color: #3F6E86;
 }
-#copyright p
+
+#footer #copyright
 {
-	color: silver;
+    background-color: #09354B;
+}
+
+#footer #copyright p
+{
+    color: #FFFFFF;
+    padding: 0.6%;
+    font-size: 0.7em;
 }
 
 
