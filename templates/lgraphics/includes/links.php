@@ -12,7 +12,7 @@ Solutions:theone/solutions.php
 Contact:theone/contact.php
 Hello:theone/hello.php
 
-*Home:loni
+*Home:
 *About:#
 *Gallery:#
 
