@@ -324,11 +324,22 @@ span
 	/*text-align: left;*/
 	font-size: 0.8em;
 	margin-bottom: 0;
+    color: #FFFFFF;
 }
 
-#footer .info
+#footer #info
 {
-    background-color: #3F6E86;
+    margin-top: 2%;
+}
+
+#footer #info_right
+{
+    /*background-color: #3F6E86;*/
+}
+
+#footer #info_left
+{
+    /*background-color: #3F6E86;*/
 }
 
 #footer #copyright

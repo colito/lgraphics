@@ -53,6 +53,16 @@
         font-size: 0.750em;
     }
 
+    .board img
+    {
+        width: 80%;
+    }
+
+    .brand_img img
+    {
+        padding-left: 11%;
+    }
+
     .grid_1,
     .grid_2,
     .grid_3,
@@ -76,12 +86,19 @@
 
     #topper
     {
-        height: 40px;
+        position: fixed;
+        height: 45px;
     }
     #topper #title h1
     {
         text-align: center;
         margin: 1.7% 0 0 0;
+    }
+
+    #topper .logo img
+    {
+        margin-top: 1%;
+        width: 12%;
     }
 
     #switch,#panel
@@ -96,7 +113,7 @@
     #switch
     {
         top: 0px;
-        height: 40px;
+        height: 45px;
         right: 0px;
         opacity: 0.9;
         text-align:center;
@@ -107,8 +124,8 @@
 
     #panel
     {
-        top: 40px;
-        height: 32%;
+        top: 45px;
+        height: 30%;
         width: 50%;
         right: 0px;
         display:none;
@@ -202,6 +219,21 @@
     #form dl textarea
     {
         width: 82%;
+    }
+
+    #footer #info
+    {
+        margin-top: 5%;
+    }
+
+    #footer #info_right
+    {
+        padding-bottom: 5%;
+    }
+
+    #footer #info_left
+    {
+        padding-bottom: 5%;
     }
 
 }
