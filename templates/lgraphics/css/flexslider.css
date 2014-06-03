@@ -74,3 +74,16 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
+
+/*Disables flexslider default theme*/
+.flexslider
+{
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
