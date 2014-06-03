@@ -4,7 +4,7 @@ Class Config
     public $app_name = '';
 
     # Initial content to be displayed
-    public $default_landing_category = 'loni'; # needs to be defined
+    public $default_landing_category = 'coming-soon'; # needs to be defined
     public $default_landing_article = ''; # if empty, uses index by default
     public $default_landing_sub_article = ''; # also uses index by default if not defined
 
