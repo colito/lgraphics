@@ -2,8 +2,8 @@
 -----------------------------------------------*/
 body
 {
-	background: #ffffff;/*url("images/leela_bg.jpg")*/ /*#edece3*/ /*#f8f9fa*/
-	font-family: 'Armata', sans-serif;
+	background: #ffffff;
+	font-family: 'Helvetica';
     font-weight: 400;
     color: #4E5860;
 }
@@ -155,7 +155,7 @@ p, ul, ol
 	color: lightsteelblue;
 	display: block;
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1.1em;
     font-weight: bold;
 }
 
