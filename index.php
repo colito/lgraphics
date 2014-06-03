@@ -18,4 +18,3 @@ $sub_article = (!empty($_GET['sub-article']) ? $_GET['sub-article'] : $config->d
 $body_content = $page_handler->get_content($relative_path_depth, $category, $article, $sub_article);
 
 $page_handler->display_page($relative_path_depth, $body_content);
-
