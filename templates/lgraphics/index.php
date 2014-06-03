@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{template-res:css:normalize.css}" type="text/css" media="screen">
     <link rel="stylesheet" href="{template-res:css:grid.css}" type="text/css" media="screen">
     <link rel="stylesheet" href="{template-res:css:style.css}" type='text/css' media="screen">
+    <link rel="stylesheet" href="{template-res:css:media_queries.css}" type='text/css' media="screen">
 
     <script type="text/javascript" src="{template:res}/js/masonry.pkgd.min.js"></script>
 
@@ -70,12 +71,14 @@
 </div>
 
 <div id='footer'>
+
     <div id='copyright' class="center">
         <p>&copy; Copyright 2014</p>
     </div>
 
-    <div class="container_12 info">
-        <div class="grid_4 omega suffix_4">
+    <div id="info" class="container_12 clearfix">
+
+        <div id="info_left" class="grid_6 omega">
             <u>Phone</u> <br>
             +27(0)71 0628 057 <br>
             +27(0)74 6779 768 <br><br>
@@ -88,12 +91,13 @@
             Hatfield, Pretoria, South Africa
         </div>
 
-        <div class="grid_4">
+        <div id="info_right" class="grid_6 omega">
             Follow me on...<br>
             <a href="http://lonigraphics.tumblr.com/"><img src="{templata:images}/loni/Tumblr.png"></a> &nbsp;
             <a href="http://behance.net/lonigraphics"><img src="{templata:images}/loni/Behance.png"></a> &nbsp;
         </div>
     </div>
+
 </div>
 
 <script type="text/javascript" src="{template:res}/js/flexslider.js"></script>
